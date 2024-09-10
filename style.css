@@ -1,0 +1,33 @@
+h1 {
+    text-align: center;
+}
+
+.main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 10% 0;
+}
+
+.top, .bottom {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.canvas {
+    border: solid 2px #333;
+}
+
+.block, input, select, button {
+    width: 80%;
+}
+
+.top > .block {
+    margin: 10px;
+}
+
+.bottom > button {
+    margin: 10px;
+}
